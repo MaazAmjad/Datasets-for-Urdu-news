@@ -53,8 +53,7 @@ If you want to know how this dataset was build (include the explanation of crawl
 
 ## 4. Citation Info
 This dataset and the other resource can be used for free, but if you want to publish paper/publication using this dataset, please cite this publication:
-
----
+```
 references:
 @article{Maaz-Urdufake,
 author = { Maaz Amjad, Grigori Sidorov, Alisa Zhila, Helena G\’{o}mez-Adorno, Alexander Gelbukh, Ilia Voronkov},
@@ -62,10 +61,8 @@ title = {Bend the Truth: A Benchmark Dataset for Fake News Detection in Urdu and
 journal = {Journal of Intelligent and Fuzzy Systems},
 year = {2019}
 }
-
+```
 ---
 
 ## 5. Acknowledgments
 The work was done with partial support of CONACYT project 240844 and SIP-IPN projects 20195719.
-
----
