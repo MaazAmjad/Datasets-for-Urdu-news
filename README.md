@@ -34,7 +34,7 @@ This dataset has two folders. Each folder contains real and fake news. There are
 The class distributio for the fake and real news for each dataset is shown below:
 
 | Dataset        | Class | Entries |
-|----------------|-------|---------|
+|:---------------|-------|--------:|
 |                | Fake  | 400     |
 | Bend the Truth |-------|---------|
 |                | Real  | 500     |
