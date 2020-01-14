@@ -1,25 +1,75 @@
-# Abusive-Language-Detection-of-tweets-in-Urdu
+                                Urdu Fake News Dataset
+                              ===========================
 
-## About this data: Datasets-for-Urdu-news
-Datasets for Urdu news
+                                August 1st October, 2019
+                                
+    Maaz Amjad, Grigori Sidorov, Alisa Zhila, Helena Gómez-Adorno, Alexander Gelbukh, Ilia Voronkov
 
-Here we provide our dataset for multi-label hate speech and abusive language detection in the Indonesian Twitter. The main dataset can be seen at **re_dataset** with labels information as follows:
+                       Natural Language and Text Processing Laboratory
+                       Center for Computing Research (CIC)
+                       Instituto Politécnico Nacional (IPN)
+                       Ciudad de México (Mexico City), Mexico  
 
-For each label, `1` means `yes` (tweets including that label), `0` mean `no` (tweets are not included in that label). 
+## CONTENTS
+ 1. Introduction
+ 2. Data Annotation
+ 3. Feedback
+ 4. Citation Info
+ 5. Acknowledgments
 
-Due to the Twitter's Terms of Service, we do not provide the tweet ID. All username and URL in this dataset are changed into USER and URL. 
+==============================
+## 1. Introduction
 
-For text normalization in our experiment, we built typo and slang words dictionaries named **---**, that contain two columns (first columns are the typo and slang words, and the second one is the formal words). Here the examples of mapping:
+This README demonstrates Urud fake news datasets which contain news of 5 different news domains. These domains are Sports, Health, TEchnology, Entertainment and Business. The real news are coolected by combining manual approaches. However, the fake news are collected by crowdsourced annotation (we took the services of the professional journalists)
 
+============================
 
-Furthermore, we also built abusive lexicon list named **abusive.csv** that can be used for feature extraction.
+## 2. Data collection
 
-## More detail
-If you want to know how this dataset was build (include the explanation of crawling and annotation technique) and how we did our experiment in multi-label hate speech and abusive language detection in Urdu language using this dataset, you can read our paper in here: 
-For any questions regarding the content of this page, please contact Maaz Amjad, maazamjad at phystech.edu
+"The Bend the Truth" dataset contains news in six different domains: technology, education, business, sports, politics, and entertainment. The real news included in the dataset were collected from a variety of mainstream news websites predominantly in the Pakistan, India, UK and USA. These news channels are BBC Urdu News, CNN Urdu, Express News, Jung News, Naway Waqat and many others reliable news websites. The fake news included in this dataset consist of fake versions of the real news in the dataset, written by professional journalists. More details on the data collection are provided in the paper. 
 
-## How to cite us
+=======================
+
+## 3. Dataset structure of "Bend the Truth"
+
+This dataset has two folders. Each folder contains real and fake news. There are 5 types of news in this dataset such as technology, business, sports, health and entertainment. The file names shoes the catagory of news. For example, the news catogary sports (sp), technology (tech) etc.
+
+The class distributio for the fake and real news for each dataset is shown below:
+
++-------------+------------+---------+--+
+|   Dataset      | Class      | Entries |
+
++-------------+------------+---------+--+
+|                | Fake       |   400   | 
+
++ Bend the Truth +-----------+----------+
+|                | Real       |   500   |   
+
++-------------+------------+------------+
+
+=======================
+
+## 3. Feedback
+If you want to know how this dataset was build (include the explanation of crawling and annotation technique) and how we did our experiments for Fake News detection in Urdu language using this dataset, you can read our paper in here:
+
+*For further questions or inquiries about this dataset, you can contact Maaz Amjad (maazamjad@phystech.edu)* 
+
+=======================
+
+## 4. Citation Info
 This dataset and the other resource can be used for free, but if you want to publish paper/publication using this dataset, please cite this publication:
- 
+
+@article{Maaz-Urdufake,
+author = { Maaz Amjad, Grigori Sidorov, Alisa Zhila, Helena G\’{o}mez-Adorno, Alexander Gelbukh, Ilia Voronkov},
+title = {Bend the Truth: A Benchmark Dataset for Fake News Detection in Urdu and Its Evaluation},
+journal = {Journal of Intelligent and Fuzzy Systems},
+year = {2019}
+}
+
+=======================
+
+## 5. Acknowledgments
+The work was done with partial support of CONACYT project 240844 and SIP-IPN projects 20195719.
+
 
 
