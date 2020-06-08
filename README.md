@@ -55,7 +55,7 @@ If you want to know how this dataset was build (include the explanation of crawl
 This dataset and the other resource can be used for free, but if you want to publish paper/publication using this dataset, please cite this publication:
 ```
 @article{MaazUrdufake2020,
-author = { Maaz Amjad, Grigori Sidorov, Alisa Zhila, Helena G\’{o}mez-Adorno, Alexander Gelbukh, Ilia Voronkov},
+author = { Maaz Amjad, Grigori Sidorov, Alisa Zhila, Helena G\’{o}mez-Adorno, Ilia Voronkov, Alexander Gelbukh},
 title = {Bend the Truth: A Benchmark Dataset for Fake News Detection in Urdu and Its Evaluation},
 journal = {Journal of Intelligent and Fuzzy Systems},
 year = {2019}
