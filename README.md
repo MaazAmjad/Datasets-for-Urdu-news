@@ -2,7 +2,7 @@
                               ===========================
 
                                 
-    **Maaz Amjad, Grigori Sidorov, Alisa Zhila, Helena Gómez-Adorno, Ilia Voronkov, Alexander Gelbukh**
+    Maaz Amjad, Grigori Sidorov, Alisa Zhila, Helena Gómez-Adorno, Ilia Voronkov, Alexander Gelbukh
                        Natural Language and Text Processing Laboratory
                        Center for Computing Research (CIC)
                        Instituto Politécnico Nacional (IPN)
