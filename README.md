@@ -62,7 +62,5 @@ pages={2457-2469},
 year={2020},
 publisher={IOS Press}
 }
-
-}
 ```
 ---
